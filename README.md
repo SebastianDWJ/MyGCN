@@ -47,3 +47,4 @@ If you find this code useful in your work, please cite:
 ```
 
 
+# MyGCN
