@@ -1,0 +1,88 @@
+ssh://douwenjie@47.93.98.83:6000/home/c404/data2/douwenjie/.conda/envs/torch/bin/python -u /home/c404/data2/douwenjie/EV_GCN/train_eval_evgcn.py --train=0
+ Using GPU in torch
+==========       CONFIG      =============
+train:0
+use_cpu:False
+hgc:16
+lg:4
+lr:0.01
+wd:5e-05
+num_iter:300
+edropout:0.3
+dropout:0.2
+num_classes:2
+ckpt_path:./save_models/ev_gcn
+time:220920
+device:cuda
+==========     CONFIG END    =============
+
+
+===> Phase is eval.
+  Loading dataset ...
+
+========================== Fold 0 ==========================
+  Constructing graph data...
+  Number of testing samples 88
+  Start testing...
+  Fold 0 test accuracy 0.70455, AUC 0.75350
+
+========================== Fold 1 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 1 test accuracy 0.82759, AUC 0.86479
+
+========================== Fold 2 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 2 test accuracy 0.93103, AUC 0.95387
+
+========================== Fold 3 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 3 test accuracy 0.75862, AUC 0.89521
+
+========================== Fold 4 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 4 test accuracy 0.71264, AUC 0.70638
+
+========================== Fold 5 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 5 test accuracy 0.73563, AUC 0.73191
+
+========================== Fold 6 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 6 test accuracy 0.93103, AUC 0.98883
+
+========================== Fold 7 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 7 test accuracy 0.95402, AUC 0.96330
+
+========================== Fold 8 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 8 test accuracy 0.85057, AUC 0.88404
+
+========================== Fold 9 ==========================
+  Constructing graph data...
+  Number of testing samples 87
+  Start testing...
+  Fold 9 test accuracy 0.67816, AUC 0.64202
+
+========================== Finish ==========================
+=> Average test accuracy in 10-fold CV: 0.80827
+=> Average test AUC in 10-fold CV: 0.83839
+=> Average test sensitivity 0.8490, specificity 0.8099, F1-score 0.8218
+
+Process finished with exit code 0

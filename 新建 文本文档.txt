@@ -1,0 +1,27 @@
+<bound method Module.modules of EV_GCN(
+  (relu): ReLU(inplace=True)
+  (gconv): ModuleList(
+    (0): ChebConv(3052, 16, K=3, normalization=sym)
+    (1): ChebConv(16, 16, K=3, normalization=sym)
+    (2): ChebConv(16, 16, K=3, normalization=sym)
+    (3): ChebConv(16, 16, K=3, normalization=sym)
+  )
+  (cls): Sequential(
+    (0): Linear(in_features=64, out_features=256, bias=True)
+    (1): ReLU(inplace=True)
+    (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): Linear(in_features=256, out_features=2, bias=True)
+  )
+  (edge_net): PAE(
+    (parser): Sequential(
+      (0): Linear(in_features=3, out_features=128, bias=True)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.2, inplace=False)
+      (4): Linear(in_features=128, out_features=128, bias=True)
+    )
+    (cos): CosineSimilarity()
+    (relu): ReLU(inplace=True)
+    (elu): ReLU()
+  )
+)>

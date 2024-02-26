@@ -1,0 +1,55 @@
+=> Average test accuracy in 10-fold CV: 0.88634
+=> Average test AUC in 10-fold CV: 0.89930
+=> Average test sensitivity 0.8992, specificity 0.8911, F1-score 0.8941
+
+=> Average test accuracy in 10-fold CV: 0.88863
+=> Average test AUC in 10-fold CV: 0.90375
+=> Average test sensitivity 0.9089, specificity 0.8911, F1-score 0.8967
+
+=> Average test accuracy in 10-fold CV: 0.88404
+=> Average test AUC in 10-fold CV: 0.90598
+=> Average test sensitivity 0.8950, specificity 0.8933, F1-score 0.8915
+
+=> Average test accuracy in 10-fold CV: 0.88519
+=> Average test AUC in 10-fold CV: 0.90024
+=> Average test sensitivity 0.9049, specificity 0.8805, F1-score 0.8915
+
+=> Average test accuracy in 10-fold CV: 0.88289
+=> Average test AUC in 10-fold CV: 0.90137
+=> Average test sensitivity 0.8951, specificity 0.8913, F1-score 0.8916
+
+=> Average test accuracy in 10-fold CV: 0.88060
+=> Average test AUC in 10-fold CV: 0.89145
+=> Average test sensitivity 0.9007, specificity 0.8825, F1-score 0.8894
+
+=> Average test accuracy in 10-fold CV: 0.89323
+=> Average test AUC in 10-fold CV: 0.89974
+=> Average test sensitivity 0.9169, specificity 0.8848, F1-score 0.8984
+
+=> Average test accuracy in 10-fold CV: 0.87945
+=> Average test AUC in 10-fold CV: 0.89519
+=> Average test sensitivity 0.9001, specificity 0.8722, F1-score 0.8842
+
+=> Average test accuracy in 10-fold CV: 0.88749
+=> Average test AUC in 10-fold CV: 0.90523
+=> Average test sensitivity 0.9071, specificity 0.8847, F1-score 0.8947
+
+=> Average test accuracy in 10-fold CV: 0.88634
+=> Average test AUC in 10-fold CV: 0.90132
+=> Average test sensitivity 0.9149, specificity 0.8783, F1-score 0.8923
+
+=> Average test accuracy in 10-fold CV: 0.88749
+=> Average test AUC in 10-fold CV: 0.90089
+=> Average test sensitivity 0.9100, specificity 0.8868, F1-score 0.8953
+
+
+
+1-10
+
+=> Average test accuracy in 10-fold CV: 0.88519
+=> Average test AUC in 10-fold CV: 0.90181
+=> Average test sensitivity 0.9005, specificity 0.8889, F1-score 0.8938
+
+=> Average test accuracy in 10-fold CV: 0.88634
+=> Average test AUC in 10-fold CV: 0.90132
+=> Average test sensitivity 0.9149, specificity 0.8783, F1-score 0.8923

@@ -1,0 +1,13 @@
+parser.add_argument('--train', default=1, type=int, help='train(default) or evaluate')
+parser.add_argument('--use_cpu', action='store_true', help='use cpu?')
+parser.add_argument('--hgc', type=int, default=256, help='hidden units of gconv layer')
+parser.add_argument('--lg', type=int, default=5, help='number of gconv layers')
+parser.add_argument('--lr', default=0.01, type=float, help='initial learning rate')
+parser.add_argument('--wd', default=5e-5, type=float, help='weight decay')
+parser.add_argument('--num_iter', default=500, type=int, help='number of epochs for training')
+parser.add_argument('--edropout', type=float, default=0.3, help='edge dropout rate')
+parser.add_argument('--dropout', default=0.4, type=float, help='ratio of dropout')
+parser.add_argument('--num_classes', type=int, default=2, help='number of classes')
+parser.add_argument('--ckpt_path', type=str, default='./save_models/ev_gcn', help='checkpoint path to save trained models')
+
+0.85
